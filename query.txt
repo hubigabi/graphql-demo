@@ -1,0 +1,15 @@
+{
+  customersByName(name: "Adam") {
+    id
+    name
+    age
+  }
+}
+
+mutation {
+  addCustomer(name: "Karol", age: 20) {
+    id
+    name
+    age
+  }
+}
