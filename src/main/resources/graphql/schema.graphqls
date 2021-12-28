@@ -16,5 +16,5 @@ type Order {
 }
 
 type Mutation {
-    addCustomer(name: String, age: Int): Customer
+    addCustomer(name: String!, age: Int!): Customer
 }
