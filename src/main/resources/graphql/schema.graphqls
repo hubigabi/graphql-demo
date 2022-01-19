@@ -1,8 +1,14 @@
+"""
+Example of docs for Query
+"""
 type Query {
     customers: [Customer]
     customersByName(name: String): [Customer]
 }
 
+"""
+Example of docs for Customer
+"""
 type Customer {
     id: ID
     name: String
